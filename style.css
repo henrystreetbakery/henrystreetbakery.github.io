@@ -11,6 +11,7 @@ body {
   color: #000;
   display: flex;
   flex-direction: column;
+  font-size: 0.8rem; /* Reduce font size */
 }
 
 header {
@@ -19,16 +20,12 @@ header {
   background-color: #fff; /* White background for the header */
 }
 
-h1, h2 {
+h1 {
   margin: 0;
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-}
-
-h2 {
-  font-weight: 700;
-  text-align: center; /* Center "Our products" */
+  font-size: 2rem; /* Reduce font size */
 }
 
 main {
@@ -66,7 +63,7 @@ main {
 }
 
 .order-button {
- display: block;
+  display: block;
   text-align: center;
   background: #fff;
   color: #000;
@@ -86,4 +83,11 @@ footer {
   background-color: #000; /* Black background */
   color: #fff; /* White text */
   margin-top: auto; /* Pushes the footer to the bottom of the page */
+  font-size: 0.75rem; /* Adjusted footer text size */
 }
+
+/* Smaller Space Mono font size */
+body {
+  font-size: 1rem; /* Reduce font size for Space Mono */
+}
+

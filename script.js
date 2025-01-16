@@ -1,7 +1,5 @@
 const products = [
-  { id: 1, name: "Product A", price: "$10", image: "./products/product-a.png" },
-  { id: 2, name: "Product B", price: "$10", image: "./products/product-b.png" },
-  { id: 3, name: "Product C", price: "$10", image: "./products/product-c.png" },
+  { id: 1, name: "", price: "", image: "./products/product-a.png" },
 ];
 
 function displayProducts() {
