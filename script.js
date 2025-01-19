@@ -1,5 +1,6 @@
 const products = [
-  { id: 1, name: "", price: "", image: "./products/product-a.png" },
+  { id: 1, name: "Ube rice krispies treat", price: "", image: "./products/product-ube-rice-krispies-treat.jpg" },
+  { id: 2, name: "Salted coco jam rice krispies treat", price: "", image: "./products/product-salted-coco-jam-rice-krispies-treat.jpg" },
 ];
 
 function displayProducts() {
