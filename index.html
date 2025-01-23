@@ -38,8 +38,18 @@
     </section>
     
      <section id="cta">
-      <a href="mailto:henrystreetbakery@gmail.com" class="order-button">Order now</a>
+      <a href="mailto:henrystreetbakery@gmail.com" id="orderButton" class="order-button">Order now</a>
     </section>
+    
+      <!-- Custom Event Script -->
+      <script>
+    document.getElementById('orderButton').addEventListener('click', function() {
+      gtag('event', 'order_button_click', {
+        event_category: 'engagement',
+        event_label: 'Order Button',
+      });
+    });
+    </script>
     
     <!--<section id="about">
         <h2>About Us</h2>
